@@ -1,5 +1,5 @@
 # Stock Analysis
-A multi year analysis of stock price performance using VBA macros to quickly and easily guage trends with a variety of tools.  The project then explains the process for refactoring the original VBA code to see if using the new VBA macros written to analyze 12 stocks is appropriate for  use with larger data sets such as the S&P 500 and Russel 2000.
+A multi year analysis of stock price performance using VBA macros to quickly and easily guage trends with a variety of tools.  The project then explains the process for refactoring to determine if the new VBA macros written is appropriate for use with larger data sets such as the S&P 500 and Russel 2000.
 
 
 ## Overview
@@ -45,7 +45,7 @@ Refactoring code is as much an art as it is a science.   Throughout the research
 
 To borrow another overused phrase, refactoring code is less a destination than a journey.  The need to ship a Minimum Viable Product may take precedence over producing perfect code, but improvements can always be added to product in future updates to improve functionality and respond to a new operating environment.
 
-In this case, the positives of the refactored code seem to be a clear win for in terms of reduced processing time as demonstrated here: 
+In this case, the positives of the refactored code seem to be a clear win in terms of reduced processing time.  This coule ber very helpful for use with a very large data set - say like spotting trends within the component companies of the S&P 500 or Russell 2000 over the past decade - as demonstrated here: 
 
 ![original](https://github.com/halesoysters/stock_analysis/blob/b49559c8231fd73414b18201bb81df2db600bb5a/Resources/orig_run_time.png)
 
